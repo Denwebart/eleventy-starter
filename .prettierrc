@@ -13,10 +13,14 @@
   "tabWidth": 2,
   "trailingComma": "all",
   "useTabs": false,
-  "plugins": ["prettier-plugin-tailwindcss", "prettier-plugin-classnames", "prettier-plugin-merge"],
-  "tailwindStylesheet": "./src/styles/style.css",
+
+  "plugins": ["prettier-plugin-classnames", "prettier-plugin-merge", "prettier-plugin-tailwindcss"],
+
+  "tailwindStylesheet": "./src/css/style.css",
+
   "customAttributes": ["class"],
   "customFunctions": ["clsx", "cn"],
+
   "overrides": [
     {
       "files": "*.html",

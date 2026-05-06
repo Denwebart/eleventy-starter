@@ -5,11 +5,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "run-p dev:11ty dev:css",
+    "dev": "start chrome http://localhost:8080 & run-p dev:11ty dev:css",
     "dev:11ty": "eleventy --serve",
-    "dev:css": "tailwindcss -i ./src/styles/style.css -o ./dist/css/style.css --watch",
+    "dev:css": "tailwindcss -i ./src/css/style.css -o ./dist/css/style.css --watch",
     "build": "run-s build:css build:11ty",
-    "build:css": "tailwindcss -i ./src/styles/style.css -o ./dist/css/style.css --minify",
+    "build:css": "tailwindcss -i ./src/css/style.css -o ./dist/css/style.css --minify",
     "build:11ty": "eleventy"
   },
   "keywords": [],
