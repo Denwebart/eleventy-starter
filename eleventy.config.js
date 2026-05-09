@@ -7,6 +7,8 @@ export default function (eleventyConfig) {
   });
 
   eleventyConfig.addPassthroughCopy('src/images');
+  eleventyConfig.addPassthroughCopy('src/fonts');
+  eleventyConfig.addPassthroughCopy('src/js');
 
   eleventyConfig.addFilter('rootPath', function (page) {
     const depth = (page.url.match(/\//g) || []).length - 1;
