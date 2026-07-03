@@ -18,12 +18,12 @@
   "packageManager": "pnpm@10.33.3",
   "devDependencies": {
     "@11ty/eleventy": "^3.1.6",
-    "@tailwindcss/cli": "^4.3.1",
+    "@tailwindcss/cli": "^4.3.2",
     "npm-run-all": "^4.1.5",
-    "prettier": "^3.8.4",
-    "prettier-plugin-classnames": "^0.10.2",
+    "prettier": "^3.9.4",
+    "prettier-plugin-classnames": "^0.10.3",
     "prettier-plugin-merge": "^0.10.1",
     "prettier-plugin-tailwindcss": "^0.8.0",
-    "tailwindcss": "^4.3.1"
+    "tailwindcss": "^4.3.2"
   }
 }
